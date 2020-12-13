@@ -51,26 +51,21 @@ tarjetaCursos(0, 1, 'Nuevo curso Mercado Libre',
 
 
 // ------------- ARTICULOS ------------------
-articulo('Semillero en la Nación',
+
+articulo(2, 'Semillero en la Nación',
         'Semillero digital: profesionales de la informática capacitan a jóvenes de barrios vulnerables',
         'Durante la pandemia creció la oferta y la demanda de este tipo de iniciativas: el encierro y la necesidad de buscar alternativas laborales juntó a facilitadores y jóvenes en cursos prácticos de marketing digital y comercio electrónico',
-        'img/blog-lanacion.jpg',
-        'Semillero en La Nación',
         'https://www.lanacion.com.ar/tecnologia/semillero-digital-profesionales-informatica-capacitan-jovenes-barrios-nid2464906/',
-        'Leer nota en La Nación')
+        'Ver más')
 
-articulo('Semillero en Infobae',
+articulo(1, 'Semillero en Infobae',
         'Los oficios digitales más buscados del mercado laboral y la oportunidad de la Argentina',
         'Son nuevas posiciones que demandan las empresas y que surgen de la transformación digital. Se relacionan con la administración y atención del comercio electrónico, las redes sociales, el desarrollo web y la publicidad digital.',
-        'img/blog-infobae.jpg',
-        'Semillero en Infobae',
         'https://www.infobae.com/tecno/2020/10/24/los-oficios-digitales-mas-buscados-del-mercado-laboral-y-la-oportunidad-de-la-argentina/',
-        'Leer nota en Infobae')
+        'Ver más')
 
-articulo('Semillero en Radio Congo',
+articulo(0, 'Semillero en Radio Congo',
         'Podcast en "Las promesas de Elon" , Radio Congo FM | T03E19: Aprendé un oficio digital',
         'Semillero Digital es una iniciativa para capacitar en oficios digitales a jóvenes de entre 18 y 35 años, de Barrio 31, Apache o Soldati. ¿Qué es un oficio digital? ¿Por qué es la puerta al trabajo? Igualdad de oportunidades y el súper poder: tu tiempo. Entrevista con Demian Niedfeld, creador del proyecto.',
-        'img/blog-radiocongo.jpg',
-        'Semillero en Radio Congo',
         'https://open.spotify.com/episode/25jMGlR8yOcbWT3T7o00Ge',
         'Escuchar Podcast')
