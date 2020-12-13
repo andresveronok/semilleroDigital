@@ -34,16 +34,12 @@ ul li a:hover {
     color: black;
     font-weight: bold;
 }
-.navbar-toggler {
-    background-color: white;
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
 }
 
-.navbar-toggler-icon {
-    background-color:black;
-    color: black;
-}
-
-.navbar-light .navbar-nav .active>.nav-link {
+.navbar-dark .navbar-nav .active>.nav-link {
     border-bottom: 5px solid #27AEFD;
 }
 
@@ -169,6 +165,9 @@ ul li a:hover {
     width: 450px;
 }
 
+#quienes-somos {
+    font-size: 60px;
+}
 .queHacemos {
     margin: 100px 0;
 }
@@ -491,6 +490,7 @@ ul li a:hover {
     /* BLOG */
     #blog {
         margin: 0; 
+        grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
         /* border: 1px solid green; */
     }
     .blog-article {

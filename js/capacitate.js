@@ -29,9 +29,9 @@ export default function tarjetaCursos (tipo, color, nombre, descPlataforma, desc
     crearDivHijo1.append(p);
     crearDivHijo2.append(img);
     if (tipo == 0){
-        $('#capacitateEmpresa').append(crearDivPadre)
+        $('#capacitateEmpresa').after(crearDivPadre)
     }else{
-        $('#capacitatePersona').append(crearDivPadre) 
+        $('#capacitatePersona').after(crearDivPadre) 
     }
     
 }
