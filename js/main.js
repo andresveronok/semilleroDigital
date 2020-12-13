@@ -19,15 +19,6 @@ tarjetaCursos(1, 1, 'Nuevo curso Mercado Libre',
             'Logo Mercadolibre',
             'https://drive.google.com/file/d/1lHb8k-SORHRg7XDTJpqCmTWPbBTlFuLF/view?usp=sharing')
 
-
-
-tarjetaCursos(1, 2, 'Nuevo curso Tienda Nube', 
-            'Es la herramienta más simple e intuitiva para construir un sitio y se puede integrar con la cuenta de ML.', 
-            'Es una parte que nos faltaba para completar un ecosistema de cursos que abarquen las principales aristas del ecommerce => Perfil Digital completo.', 
-            'Posibles empleadores: Negocios que enfrentan a la necesidad de digitalizar su operación.', 
-            'img/capacitate-tiendanube.png',
-            'Logo Mercadolibre',
-            'https://drive.google.com/file/d/1lHb8k-SORHRg7XDTJpqCmTWPbBTlFuLF/view?usp=sharing')
             
 
 // ------------ CURSOS (EMPRESAS) ---------------------
@@ -48,7 +39,13 @@ tarjetaCursos(0, 1, 'Nuevo curso Mercado Libre',
             'Logo Mercadolibre',
             'https://drive.google.com/file/d/1lHb8k-SORHRg7XDTJpqCmTWPbBTlFuLF/view?usp=sharing')
             
-
+tarjetaCursos(0, 0,'Curso Community Manager en Instagram', 
+            'Es usada y conocida por los jóvenes que viven en los barrios donde brindamos cursos.', 
+            'Por el crecimiento de la red social y la digitalización de la economía, se genera la posibilidad de trabajar con ella.', 
+            'Posibles empleadores: PYMEs con la necesidad de un CM que se ocupe de su negocio y potenciar a los emprendedores con sus proyectos.', 
+            'img/capacitate-instagram.png',
+            'Logo Instagram',
+            'https://drive.google.com/file/d/1zcySY8oUcfgNrk6qp6CyhMdNSqm58Tzk/view?usp=sharing')  
 
 // ------------- ARTICULOS ------------------
 
