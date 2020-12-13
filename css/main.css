@@ -1,0 +1,282 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+}
+
+/* .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    border-bottom: 2px solid orange;
+} */
+
+
+#header {
+    padding: 0 50px;
+    background-color: #eaeaea !important;
+}
+
+#header img {
+width: 150px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    border-bottom: 5px solid #27AEFD;
+}
+
+.bg-light {
+    background-color: white !important;
+}
+
+.main::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    /* background-image: linear-gradient(to right, #646605, #005f7c); */
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+}
+.main {
+    position: relative;
+    background-image: url(../img/inicio-fondo.jpeg);
+    padding: 20vh 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 85vh;
+
+}
+
+.main > * {
+    z-index: 1;
+    position: relative;
+}
+
+.main h2 {
+    color: white;
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 50px;
+    padding-top: 20px;
+    background-color: silver;
+    font-weight: bold;
+
+}
+
+#footer ul {
+    display: flex;
+    flex-direction: row;
+}
+
+#footer ul li{
+    margin-left: 30px;
+    font-size: 1.7rem;  
+}
+
+#footer ul li a{
+    color: black;
+}
+
+#whatsapp:hover {
+    color: #29a737;
+}
+
+#facebook:hover {
+    color: #4267B2;
+}
+
+#instagram:hover {
+  color: #C13584;  
+}
+
+#youtube:hover {
+    color:#FF0000;  
+}
+
+#linkedin:hover {
+    color: #2867B2;  
+}
+
+
+@media only screen and (max-width: 600px) {
+    #footer {
+        height: 140px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .main h2 {
+        font-size: 40px;
+        }
+}
+
+/* ¿Quienes somos?*/
+.nosotros__textos {
+    margin: 80px 0;
+}
+
+.nosotros__imagen {
+    width: 500px;
+}
+
+.queHacemos{
+    margin: 100px 0;
+}
+.queHacemos__textos {
+    text-align: center;
+}
+.queHacemos__textos h2{
+    font-size: 60px;
+    letter-spacing: 10px;
+}
+
+.queHacemos__textos p{
+    font-size: 40px;
+}
+
+.objetivo__imagen{
+    width: 480px;
+}
+
+/* CAPACITATE */
+.cursos__columna{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cursos__titulo{
+    text-align: center;
+    letter-spacing: 8px;
+    margin: 30px 0 ;
+}
+.curso_imagen{
+    width: 300px;
+    margin: 10px;
+}
+
+.cursos__boton{
+    background-color: #27AEFD;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+
+.cursos__fondo{
+    border-radius: 30px 0px 30px 0px;
+    padding: 30px;
+}
+
+/* CAPACITATE */
+
+/* BLOG */
+
+/* BLOG */
+#blog {
+    margin: 2rem; 
+    /* border: 1px solid green; */
+}
+
+.blog-article {
+    margin: 2rem;
+    /* border: 1px solid red; */
+    background-color: #c8f1ff;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 2rem;
+}
+
+
+.blog-article img {
+    width: 400px;
+}
+
+.blog-article-title {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.blog-article-text h4 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.blog-article-text P  {
+    margin-bottom: 3rem;
+}
+
+.blog-article-btn {
+    background-color: #c4c4c4;
+    border-radius: 5px;
+    padding: 1rem;
+    color: black;
+    text-decoration: none;
+}
+
+.blog-article-btn:hover {
+    color:#f5501b;
+    text-decoration: none;
+    
+}
+/* BLOG */
+
+
+/*CONTACTO */
+.form-group{
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+/*CONTACTO */
+.boton__form{
+    background-color: #27AEFD;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+
+.boton__form__lugar{
+    display: grid;
+}
+.boton__form__estudio{
+    background-color: #27AEFD;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    color: black;
+    text-align: center;
+}
+
+.contacto__titulo{
+    margin: 50px 0;
+}
+
+.contacto__acordeon{
+    margin: 0 0 80px 0;
+}
+
+.btn-link{
+    color: black;
+}
+.btn-link:hover{
+    color: #f5501b;
+}
+
+.card-header{
+    background-color: #a5df2a;
+}
