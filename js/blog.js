@@ -11,5 +11,4 @@ export default function articulo(titulo, sutitulo, parrafo, imagen, descImagen, 
     divContenedor.append(img, divHijo);
     divHijo.append(h4, p, a)
     $('#blog').append(articulo);
-
 }
