@@ -237,7 +237,19 @@ ul li a:hover {
     width: 300px;
     margin: 10px;
 }
+.curso_instagram {
+    width: 300px;
+}
 
+.curso_mercadolibre {
+    width: 300px;
+    margin: 10px;
+}
+
+.curso_tiendanube {
+    width: 300px;
+    margin: 10px;
+}
 .cursos__boton{
     background-color: #27AEFD;
     border-radius: 10px;
@@ -249,6 +261,25 @@ ul li a:hover {
     border-radius: 30px 0px 30px 0px;
     padding: 30px;
 }
+
+
+.cursos__fondo1 {
+    border: 5px solid #27AEFD;
+    border-radius: 30px 0px 30px 0px;
+    padding: 30px;
+}
+
+.cursos__fondo2 {
+    border: 5px solid #FFB300;
+    border-radius: 30px 0px 30px 0px;
+    padding: 30px;
+}
+
+.cursos__fondo3 {
+    border: 5px solid #a5df2a;
+    border-radius: 30px 0px 30px 0px;
+    padding: 30px;
+}   
 
 .testimonios__imagenes{
     margin: auto;

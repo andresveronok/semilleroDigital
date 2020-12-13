@@ -18,7 +18,7 @@ export default function tarjetaCursos (tipo, color, nombre, descPlataforma, desc
     var strong3 = $('<br><strong>3 - Empleabilidad PYME</strong><br>')
     var p = $('<p></p>').append(strong1, descPlataforma,strong2, descDemanda, strong3, descEmpleabilidad)
     var img = $('<img></img>').attr('src',imagen).attr('alt', descImagen).addClass('curso_imagen');
-    var button = $('<button>Ver Programa</button>').addClass('col-2 m-auto cursos__boton').attr('id', 'link' + id).attr('onclick', 'location.href="'+ linkPrograma +'" ' );
+    var button = $('<button>Ver Programa</button>').addClass('col-sm-12 col-md-3 m-auto cursos__boton').attr('id', 'link' + id).attr('onclick', 'location.href="'+ linkPrograma +'" ' );
     if (id % 2 == 0){
         var crearDivPadre = $('<div></div>').addClass('row cursos__fondo m-3').css('border', '5px solid' + borde);
         crearDivPadre.append(crearH2, crearDivHijo1, crearDivHijo2, button);
